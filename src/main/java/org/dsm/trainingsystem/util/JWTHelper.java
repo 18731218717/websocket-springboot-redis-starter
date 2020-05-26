@@ -13,7 +13,7 @@ import java.util.Map;
 public class JWTHelper {
 
     private static final long EXPIRE_TIME = 30*60*1000;     //过期时间
-    static Algorithm algorithm = Algorithm.HMAC256("secret");
+    static Algorithm algorithm = Algorithm.HMAC256("nicaicai");
 
     public static String getToken(Map<String, Object> map){
 
