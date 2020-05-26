@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.me{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 90%;
+    background: linear-gradient(to right, #f1f1f1, #f7f7f7);
+}
+img{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+}
+p{
+    margin: 0;
+    color: #222;
+}
+#message{
+    background: #f7f7f7;
+    height: 75vh;
+    overflow:auto;
+    position: relative;
+    padding: 10px 10px 30px ;
+}
+.they{
+    width: 90%;
+    margin: 10px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(to right, #f7f7f7, #f1f1f1);
+}
+#text{
+    width: 99%;
+    min-height: 10vh;
+    display: block;
+    margin: 10px auto;
+}

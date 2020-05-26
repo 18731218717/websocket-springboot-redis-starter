@@ -1,0 +1,6 @@
+org\dsm\trainingsystem\rest\interceptor\TokenInterceptor.class
+org\dsm\trainingsystem\rest\websocket\WebSocketServer.class
+org\dsm\trainingsystem\rest\Application.class
+org\dsm\trainingsystem\rest\websocket\EndpointConfigure.class
+org\dsm\trainingsystem\rest\websocket\WebSocketConfig.class
+org\dsm\trainingsystem\rest\interceptor\InterceptorConfig.class

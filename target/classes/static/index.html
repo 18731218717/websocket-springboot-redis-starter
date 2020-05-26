@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阿凯聊天室</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <div id="message">
+        <h3 id="akai" style="margin-top: 0;">阿凯聊天室</h3> 
+    </div>
+    <div>
+        <textarea id="text" type="text"></textarea>
+        <button onclick="send()">发送</button>
+        <button onclick="closeWebSocket()">退出</button>
+        <button onclick="join()">加入</button>
+    </div>
+    <script src="https://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>
