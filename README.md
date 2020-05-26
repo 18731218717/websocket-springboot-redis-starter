@@ -3,7 +3,7 @@
 开发环境:Idea
 开发框架:SpringBoot、Redis
 开发技术:WebSocke、JWT(跟聊天室没啥太大关系,项目有依赖就上传了,可剔除)
-
+	
 说明:
 1:使用项目前得提前搭建好Redis
 2:配置Redis至配置文件application.properties(用户名密码我干掉了,得配一下)
